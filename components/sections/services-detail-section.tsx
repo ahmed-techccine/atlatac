@@ -1,43 +1,50 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { DollarSign, Briefcase, Users, BarChart, Shield, Lightbulb } from "lucide-react"
+import { DollarSign, Briefcase, Users, ReceiptText, LayoutDashboard, Laptop } from "lucide-react"
+import Link from "next/link"
 
 export default function ServicesDetailSection() {
   const services = [
     {
-      icon: Users,
-      title: "Outsourced Accounting",
+      icon: ReceiptText,
+      title: "Bookkeeping",
       description:
-        "Streamline your financial operations with our expert outsourced accounting services, tailored for businesses of all sizes.",
+        "Accurate and timely recording of financial transactions, ensuring your books are always up-to-date and providing clear insights into your business health.",
+      href: "/services/bookkeeping",
     },
     {
       icon: Briefcase,
-      title: "Professional Bookkeeping",
+      title: "Accounting",
       description:
-        "Accurate and timely bookkeeping ensures your financial records are always in order, providing clear insights into your business health.",
+        "Comprehensive financial reporting, analysis, and compliance services, tailored to meet your business's unique needs and regulatory requirements.",
+      href: "/services/accounting",
+    },
+    {
+      icon: Users,
+      title: "CFO Services",
+      description:
+        "Strategic financial leadership and advisory, providing executive-level insights to guide your business decisions and drive growth without the overhead of a full-time CFO.",
+      href: "/services/cfo-services",
     },
     {
       icon: DollarSign,
-      title: "Tax Planning & Preparation",
+      title: "Business Taxes",
       description:
-        "Minimize your tax liabilities and ensure compliance with our comprehensive tax planning and preparation services for individuals and businesses.",
+        "Expert tax planning and preparation services designed to minimize your tax liabilities, ensure compliance with current regulations, and optimize your financial position.",
+      href: "/services/business-taxes",
     },
     {
-      icon: BarChart,
-      title: "Financial Advisory",
+      icon: LayoutDashboard,
+      title: "Payroll",
       description:
-        "Gain strategic financial insights and guidance to make informed decisions that drive growth and profitability for your enterprise.",
+        "Efficient and accurate payroll processing, including tax filings, direct deposits, and compliance management, ensuring your employees are paid on time and correctly.",
+      href: "/services/payroll",
     },
     {
-      icon: Shield,
-      title: "Audit & Assurance",
+      icon: Laptop,
+      title: "Technology & BI",
       description:
-        "Ensure transparency and compliance with our independent audit and assurance services, providing confidence in your financial statements.",
-    },
-    {
-      icon: Lightbulb,
-      title: "Business Consulting",
-      description:
-        "Unlock your business's full potential with our expert consulting, offering solutions for operational efficiency and strategic growth.",
+        "Leveraging cutting-edge financial technology and business intelligence tools to streamline operations, automate processes, and provide data-driven insights for strategic decision-making.",
+      href: "/services/technology-bi",
     },
   ]
 
@@ -58,20 +65,19 @@ export default function ServicesDetailSection() {
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 md:grid-cols-2">
           {services.map((service, index) => (
-            <Card
-              key={index}
-              className="flex flex-col items-center p-6 text-center hover:shadow-lg transition-shadow duration-300"
-            >
-              <CardHeader>
-                <div className="bg-primary-green/10 p-4 rounded-full mb-4">
-                  <service.icon className="h-8 w-8 text-primary-green" />
-                </div>
-                <CardTitle className="text-xl font-semibold">{service.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">{service.description}</p>
-              </CardContent>
-            </Card>
+            <Link key={index} href={service.href} target="_blank" rel="noopener noreferrer" className="h-full">
+              <Card className="flex flex-col items-center p-6 text-center hover:shadow-lg transition-shadow duration-300 h-full">
+                <CardHeader>
+                  <div className="bg-primary-green/10 p-4 rounded-full mb-4">
+                    <service.icon className="h-8 w-8 text-primary-green" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">{service.description}</p>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
       </div>
