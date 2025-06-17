@@ -15,27 +15,27 @@ export default function BusinessTaxesPage() {
         <section className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden bg-gray-900 flex items-center justify-center">
           <Image
             src="/tax.png"
-            alt="Business Taxes Background"
+            alt="Business & Personal Taxes Background"
             fill
             className="object-cover object-center opacity-40"
           />
           <div className="relative z-10 text-center text-white space-y-4">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Business Tax Services</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Business & Personal Tax Services</h1>
             <p className="text-lg md:text-xl">Expert tax planning and preparation for your business.</p>
           </div>
         </section>
 
-        {/* What are Business Tax Services Section */}
+        {/* What are Business & Personal Tax Services Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6 max-w-4xl mx-auto space-y-8 text-center">
             <div className="inline-block rounded-full bg-primary-green px-3 py-1 text-sm font-medium text-white">
               WHAT WE DO
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              What are Business Tax Services?
+              What are Business & Personal Tax Services?
             </h2>
             <p className="max-w-[800px] mx-auto text-muted-foreground md:text-lg">
-              Business tax services involve the preparation, filing, and strategic planning of taxes for businesses of
+              Business & Personal Tax services involve the preparation, filing, and strategic planning of taxes for businesses of
               all sizes and structures. Our goal is to ensure compliance with federal, state, and local tax laws while
               identifying opportunities to minimize your tax liabilities and maximize your financial efficiency.
             </p>
@@ -50,10 +50,10 @@ export default function BusinessTaxesPage() {
                 OUR OFFERINGS
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                What's Included in Our Business Tax Services?
+                What's Included in Our Business & Personal Tax Services?
               </h2>
               <p className="max-w-[800px] mx-auto text-muted-foreground md:text-lg">
-                Our comprehensive business tax services are designed to simplify your tax obligations and optimize your
+                Our comprehensive Business & Personal Tax services are designed to simplify your tax obligations and optimize your
                 tax position.
               </p>
             </div>
@@ -162,7 +162,7 @@ export default function BusinessTaxesPage() {
               WHY US
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Why Choose Atlas TACS for Business Taxes?
+              Why Choose Atlas TACS for Business & Personal Taxes?
             </h2>
             <p className="max-w-[800px] mx-auto text-muted-foreground md:text-lg">
               Ensure your business is tax-efficient and compliant with our expert guidance.
@@ -189,7 +189,7 @@ export default function BusinessTaxesPage() {
               <div className="space-y-3 text-left">
                 <h3 className="text-xl font-bold">Peace of Mind</h3>
                 <p className="text-muted-foreground">
-                  Rest assured that your business taxes are handled by experienced professionals.
+                  Rest assured that your Business & Personal Taxes are handled by experienced professionals.
                 </p>
               </div>
             </div>
@@ -203,15 +203,15 @@ export default function BusinessTaxesPage() {
               FAQ
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Frequently Asked Questions About Business Taxes
+              Frequently Asked Questions About Business & Personal Taxes
             </h2>
             <Accordion type="single" collapsible className="w-full text-left">
               <AccordionItem value="faq-1" className="border-b border-gray-200">
                 <AccordionTrigger className="flex items-center justify-between py-4 text-lg font-semibold hover:no-underline">
-                  What types of business taxes do you handle?
+                  What types of Business & Personal Taxes do you handle?
                 </AccordionTrigger>
                 <AccordionContent className="pb-4 text-muted-foreground">
-                  We handle a wide range of business taxes, including corporate income tax, partnership tax, sales and
+                  We handle a wide range of Business & Personal Taxes, including corporate income tax, partnership tax, sales and
                   use tax, and state and local taxes (SALT).
                 </AccordionContent>
               </AccordionItem>
@@ -258,14 +258,14 @@ export default function BusinessTaxesPage() {
         </section>
 
         {/* More Services Section */}
-        <MoreServicesSection currentService="Business Taxes" />
+        <MoreServicesSection currentService="Business & Personal Taxes" />
 
         {/* Contact Form Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
           <div className="container px-4 text-center space-y-8">
             <div className="text-sm font-semibold uppercase text-primary-green">GET IN TOUCH</div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Optimize Your Business Taxes
+              Optimize Your Business & Personal Taxes
             </h2>
             <p className="max-w-[700px] mx-auto text-muted-foreground md:text-lg">
               Fill out the form below to schedule a consultation and learn how our tax services can benefit your

@@ -84,7 +84,7 @@ export default function Header() {
                     <ListItem href="/services/cfo-services" title="CFO Services">
                       Strategic financial leadership for your business.
                     </ListItem>
-                    <ListItem href="/services/business-taxes" title="Business Taxes">
+                    <ListItem href="/services/business-taxes" title="Business & Personal Taxes">
                       Expert tax planning and preparation.
                     </ListItem>
                     <ListItem href="/services/payroll" title="Payroll">
@@ -152,7 +152,7 @@ export default function Header() {
                     CFO Services
                   </Link>
                   <Link href="/services/business-taxes" className="flex w-full items-center py-2 text-base">
-                    Business Taxes
+                    Business & Personal Taxes
                   </Link>
                   <Link href="/services/payroll" className="flex w-full items-center py-2 text-base">
                     Payroll

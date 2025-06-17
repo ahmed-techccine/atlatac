@@ -27,7 +27,7 @@ export default function ServicesDetailSection() {
     },
     {
       icon: DollarSign,
-      title: "Business Taxes",
+      title: "Business & Personal Taxes",
       description:
         "Expert tax planning and preparation services designed to minimize your tax liabilities, ensure compliance with current regulations, and optimize your financial position.",
       href: "/services/business-taxes",

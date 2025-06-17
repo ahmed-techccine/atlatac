@@ -60,7 +60,7 @@ export default function ServicesSection() {
               </p>
             </Card>
           </Link>
-          {/* Business Taxes Card */}
+          {/* Business & Personal Taxes Card */}
           <Link href="/services/business-taxes" target="_blank" rel="noopener noreferrer">
             <Card className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center justify-center h-full">
               {" "}
@@ -68,7 +68,7 @@ export default function ServicesSection() {
               <div className="bg-primary-green/10 p-4 rounded-full mb-4">
                 <DollarSign className="h-8 w-8 text-primary-green" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Business Taxes</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Business & Personal taxes</h3>
               <p className="text-sm text-gray-600">
                 Expert tax planning and preparation to minimize liabilities and ensure compliance.
               </p>

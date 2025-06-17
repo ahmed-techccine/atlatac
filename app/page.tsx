@@ -15,13 +15,13 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <NonprofitCfoSection />
         <AboutUsSection />
         <ServicesSection />
         <SmallBusinessesSolutionsSection />
         <MissionVideoSection />
-         <NonprofitCfoSection />
         <FaqContactSection /> {/* Added back here */}
-        <PricingPlansSection />
+        {/* <PricingPlansSection /> */}
       </main>
       <Footer />
     </div>

@@ -41,7 +41,7 @@ export default function MoreServicesSection({ currentService }: MoreServicesSect
       iconColorClass: "text-primary-green",
     },
     {
-      name: "Business Taxes",
+      name: "Business & Personal Taxes",
       icon: DollarSign,
       description:
         "Take the guesswork out of taxes. Our expert services optimize your strategy, maximize benefits, and minimize liabilities, giving you peace of mind.",
