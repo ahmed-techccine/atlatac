@@ -50,7 +50,7 @@ export default function Header() {
       {/* Main Navigation */}
       <div className="container flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-white">
-          <div className="relative w-[120px] h-[38px] md:w-[190px] md:h-[60px]">
+          <div className="relative w-[180px] h-[70px] md:w-[220px] md:h-[120px]">
             <Image
               src="/logo.png"
               alt="logo"
