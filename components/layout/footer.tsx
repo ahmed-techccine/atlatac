@@ -75,7 +75,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-white">
+              <Link href="/meet-our-team" target="_blank" className="hover:text-white">
                 Meet our team
               </Link>
             </li>
@@ -86,17 +86,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="#" className="hover:text-white">
-                Case stories
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:text-white">
                 Privacy policy
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:text-white">
-                Latest news
               </Link>
             </li>
             <li>
@@ -137,11 +127,11 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="text-lg font-semibold text-white">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li>60 road, broklyn golden street new york. USA</li>
+            <li>Stafford VA 22554</li>
             <li className="text-primary-green text-lg font-bold">+1- (917) 995 - 8332</li>
             <li>
               <Link href="mailto:hussaini.jafar@gmail.com" className="text-primary-green hover:text-primary-green/80">
-                hussaini.jafar@gmail.com
+                contact@atlastacs.com
               </Link>
             </li>
           </ul>
@@ -150,7 +140,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="container text-center text-sm text-gray-500 mt-12 pt-8 border-t border-gray-700 relative z-10">
-        © Copyright {new Date().getFullYear()} By Themesflat.com
+        © Copyright {new Date().getFullYear()} by IProspect
       </div>
     </footer>
   )
