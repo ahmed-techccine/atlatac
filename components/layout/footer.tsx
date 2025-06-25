@@ -75,9 +75,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              
               <Link href="/meet-our-team" target="_blank" className="hover:text-white">
                 Meet our team
               </Link>
+              
             </li>
             <li>
               <Link href="#" className="hover:text-white">
