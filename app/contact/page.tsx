@@ -50,7 +50,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Email</h3>
-                    <p className="text-muted-foreground">hussaini.jafar@gmail.com</p>
+                    <p className="text-muted-foreground">contact@atlastacs.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Address</h3>
-                    <p className="text-muted-foreground">60 road, broklyn golden street new york. USA</p>
+                    <p className="text-muted-foreground">Stafford VA 22554</p>
                   </div>
                 </div>
               </div>

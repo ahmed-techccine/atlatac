@@ -97,7 +97,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-white">
+              <Link href="/contact" className="hover:text-white">
                 Contact
               </Link>
             </li>
@@ -132,7 +132,7 @@ export default function Footer() {
             <li>Stafford VA 22554</li>
             <li className="text-primary-green text-lg font-bold">+1- (917) 995 - 8332</li>
             <li>
-              <Link href="mailto:hussaini.jafar@gmail.com" className="text-primary-green hover:text-primary-green/80">
+              <Link href="mailto:contact@atlastacs.com" className="text-primary-green hover:text-primary-green/80">
                 contact@atlastacs.com
               </Link>
             </li>
