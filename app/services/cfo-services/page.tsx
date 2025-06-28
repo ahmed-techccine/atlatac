@@ -20,7 +20,7 @@ export default function CfoServicesPage() {
             className="object-cover object-center opacity-40"
           />
           <div className="relative z-10 text-center text-white space-y-4">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Fractional CFO Services</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Nonprofit Accounting & Fractional CFO Services</h1>
             <p className="text-lg md:text-xl">Strategic financial leadership without the full-time cost.</p>
           </div>
         </section>

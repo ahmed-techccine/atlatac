@@ -130,7 +130,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>Stafford VA 22554</li>
-            <li className="text-primary-green text-lg font-bold">+1- (917) 995 - 8332</li>
+          
             <li>
               <Link href="mailto:contact@atlastacs.com" className="text-primary-green hover:text-primary-green/80">
                 contact@atlastacs.com

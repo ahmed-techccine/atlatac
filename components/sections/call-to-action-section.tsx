@@ -15,10 +15,7 @@ export default function CallToActionSection() {
           asChild
           className="bg-white text-primary-green hover:bg-gray-100 px-8 py-3 rounded-md text-lg font-semibold"
         >
-          <Link href="tel:+12463330079">
-            <Phone className="h-5 w-5 mr-2" />
-            Call Now: +1- (917) 995 - 8332
-          </Link>
+          
         </Button>
       </div>
     </section>

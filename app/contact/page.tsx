@@ -36,13 +36,6 @@ export default function ContactPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="bg-primary-green/10 p-3 rounded-full">
-                    <Phone className="h-6 w-6 text-primary-green" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg">Phone</h3>
-                    <p className="text-muted-foreground">+1- (917) 995 - 8332</p>
-                  </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="bg-primary-green/10 p-3 rounded-full">

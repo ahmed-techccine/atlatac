@@ -54,7 +54,7 @@ export default function ServicesSection() {
               <div className="bg-primary-green/10 p-4 rounded-full mb-4">
                 <Users className="h-8 w-8 text-primary-green" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">CFO Services</h3>
+              <h3 className="text-xl font-semibold mb-2">Nonprofit Accounting & Fractional CFO Services</h3>
               <p className="text-sm text-gray-300">
                 Strategic financial leadership and advisory for executive decision-making.
               </p>
